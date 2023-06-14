@@ -11,7 +11,6 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/onevcat/Rainbow.git", from: "3.1.5"),
-    .package(url: "https://github.com/apple/swift-package-manager.git", from: "0.6.0"),
     .package(url: "https://github.com/apple/swift-tools-support-core.git", .exact("0.5.2")),
   ],
   targets: [
