@@ -10,8 +10,8 @@ let package = Package(
       targets: ["LiteSupport"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/onevcat/Rainbow.git", from: "3.0.0"),
-    .package(url: "https://github.com/kareman/SwiftShell.git", from: "4.0.0"),
+    .package(url: "https://github.com/onevcat/Rainbow.git", .exact("3.0.0")),
+    .package(url: "https://github.com/kareman/SwiftShell.git", .exact("4.0.0")),
   ],
   targets: [
     .target(
